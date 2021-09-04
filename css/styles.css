@@ -1,0 +1,218 @@
+
+/* background: linear-gradient(#8611ff, #be00ff) no-repeat; */
+body {
+    margin: 0 auto;
+    background:linear-gradient( rgb(61, 0, 204), rgba(2, 20, 58, 0.486));
+    overflow: hidden;
+    height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, a {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    background: #000;
+    height: 79px;
+    
+}
+
+#logo {
+    position: absolute;
+    left: 200px;
+    
+}
+.navbar {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 79px;
+    padding-left: 55%;
+    font-weight: bold;
+    
+    
+}
+
+.navbar > li > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+#main-index {
+    position: relative;
+    margin: 0 auto;
+    height: 760px;
+    width: 1459px;
+    margin-top: 40px;
+    
+}
+
+#intro {
+    text-align: center;
+    color: whitesmoke;
+    
+}
+
+
+#intro > h3  {
+    color: black;
+    padding-top: 30px;
+    width: 760px;
+    margin: 0 auto;
+    
+}
+
+#lang-used {
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+#languages-list {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+#languages-list > li{
+    display: inline-flex;
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(#D3D3D3,#808080) no-repeat;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border: black solid 2px;
+
+
+}
+
+
+footer {
+    background: #000;
+    height: 100px;
+    margin: 0 auto;
+    
+
+}
+
+/* SignUp.php */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.signup {
+    margin: 0 auto;
+    height: 760px;
+    width: 400px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.signup > h1 {
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.signup-form > input {
+    width: 300px;
+    height: 25px;
+    border-radius: 4px;
+    color: black;
+}
+
+input[type='text'] {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signup-form > p {
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.signup-form > button {
+    background-color: black;
+    border-color: black;
+    border-radius: 4px;
+    width: 310px;
+    height: 50px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.error-message {
+    color: red;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.error-none {
+    color: green;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* login.php */
+
+.login {
+    margin: 0 auto;
+    height: 760px;
+    width: 400px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.login > h1{
+    margin-bottom: 40px;
+    color: blanchedalmond;
+}
+
+.login-form > input {
+    width: 300px;
+    height: 25px;
+    border-radius: 4px;
+    color: black;
+}
+
+.login-form > p {
+    margin-top: 15px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.login-form > button {
+    background-color: black;
+    border-color: black;
+    border-radius: 4px;
+    width: 310px;
+    height: 50px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+/* userprofile */
+
+#profileintro {
+    width:1920px;
+    height: 760px;
+    background-image: url("../img/bg-transparent.jpg");
+    background-repeat: no-repeat;
+}
