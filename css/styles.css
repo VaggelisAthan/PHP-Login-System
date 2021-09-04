@@ -209,10 +209,3 @@ input[type='text'] {
 }
 
 /* userprofile */
-
-#profileintro {
-    width:1920px;
-    height: 760px;
-    background-image: url("../img/bg-transparent.jpg");
-    background-repeat: no-repeat;
-}
